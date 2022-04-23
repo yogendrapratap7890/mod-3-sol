@@ -1,0 +1,94 @@
+.navbar{
+    background-color: grey ;
+    font-size: 2em;
+    border: 2px solid black;
+    font-weight:bold ;
+}
+h2{
+
+    font-size: 2.0em;
+    padding: 25px;
+    font-weight:bold ;
+}
+.items{
+    float: left;
+}
+.chicken{
+     margin-left: 24px;
+    background-color: gray;
+    float: left;
+    width: 31%;
+}
+.beef{
+    margin-left: 24px;
+    background-color: gray;
+     float: left;
+    width: 31%;
+}
+.shushi{
+    margin-left: 24px;
+    background-color: gray;
+    float: left;
+    width: 31%;
+}
+.navbar .box{
+    border: 2px;
+    border-radius: 3px;
+    color: lightgray;
+margin-right: 20px;
+width: 30px;
+height: 30px;
+}
+div ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+    display: block;
+}
+.md-none{
+    display: none;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .chicken {
+        width: 45%;
+        float: left;
+
+    }
+
+    .beef {
+        width: 45%;
+        float: left;
+    }
+.shushi {
+    margin-top: 24px;
+        width: 92.5%;
+    }
+    .md-none{
+        display: none;
+    }
+}
+@media(max-width: 767px) {
+   .chicken {
+        width: 93%;
+        margin-top: 23px;
+    }
+.beef {
+        width: 93%;
+        margin-top: 23px;
+    }
+
+  .shushi {
+        width: 93%;
+        margin-top: 23px;
+    }
+    header nav button span br{
+        height: 50px;
+        width: 50px;
+        border: 2px solid black;
+        margin-right: 30px;
+    }
+    .md-none{
+        display: inherit;
+    }
+}
